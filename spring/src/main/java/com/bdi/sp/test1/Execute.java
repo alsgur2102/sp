@@ -8,6 +8,6 @@ public class Execute {
 	public static void main(String[] args) {
 		ApplicationContext ac = new ClassPathXmlApplicationContext("test1/ioc1.xml");
 		House h = (House) ac.getBean("house");
-		h.playWithAnimal();
+		h.playWithAnimal(); 
 	}
 }
